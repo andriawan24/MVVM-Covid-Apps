@@ -44,7 +44,6 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 
-    implementation "androidx.cardview:cardview:1.0.0"
 
     implementation "io.reactivex.rxjava2:rxandroid:$rxJavaVersion"
     implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
@@ -59,8 +58,9 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
     implementation 'com.squareup.retrofit2:retrofit:2.7.1'
     implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
-    implementation 'com.squareup.okhttp3:okhttp:3.14.4'
     implementation "com.squareup.okhttp3:okhttp:3.14.4"
+
+    implementation "androidx.cardview:cardview:1.0.0"
 }
 
 repositories {
